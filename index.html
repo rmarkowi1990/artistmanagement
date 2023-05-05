@@ -1,0 +1,46 @@
+<body>
+  <div id="header">
+    <center>
+      <h1>indie royalty calculator.</h1>
+    </center>
+  </div>
+  <br>
+  <div id="gap>"></div>
+  <div class="container">
+    <div class="floated">
+      <div id="inputs">
+        <label for="distro">Distributor Royalty:</label>
+        <input type="text" id="distro" name="distro">%<br><br>
+
+        <label for="pAdvance">Producer Advance: $</label>
+        <input type="text" id="pAdvance" name="pAdvance"><br><br>
+
+        <label for="royaltyBefore">Producer Royalty <i>(Before Cap)</i>:</label>
+        <input type="text" id="royaltyBefore" name="royaltyBefore">%<br><br>
+        <label for="cap">Producer Cap: $</label>
+        <input type="text" id="cap" name="cap"><br><br>
+
+        <label for="royaltyAfter">Producer Royalty <i>(After Cap)</i>:</label>
+        <input type="text" id="royaltyAfter" name="royaltyAfter">%<br><br>
+        <label for="streams" id="streamsText">Spotify Streams: </label>
+        <input type="text" id="streams" name="streams">
+        <br><br>
+        <!--   <button onclick = "deal()">Submit</button> -->
+        <input id="submit" type="submit" value="Submit" onclick="deal()">
+        <!-- </form> -->
+
+      </div>
+    </div>
+    <div class="floated">
+      <div>
+        <div id="artistDisplay" class="output">Artist Income:</div>
+        <div id="producerDisplay" class="output">Producer Income:</div>
+        <div id="distributorDisplay" class="output">Distributor Income:</div>
+        <!--     <h2 id = "artistDisplay">Artist Income:</h2><br><br>
+    <h2 id = "producerDisplay">Producer Income:</h2><br><br>
+    <h2 id = "distributorDisplay">Distributor Income:</h2><br><br> -->
+
+      </div>
+    </div>
+  </div>
+</body>
